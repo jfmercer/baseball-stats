@@ -1,6 +1,8 @@
 *.pdf
 *.csv
 
+coverage/
+
 # Github's Ruby .gitignore (abbreviated)
 *.gem
 *.rbc
