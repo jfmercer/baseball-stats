@@ -6,4 +6,5 @@ group :test do
   gem "rake", "~> 12.0.0"
   gem "rspec", "~> 3.5"
   gem "simplecov", "~> 0.10.0"
+  gem "thor", "~> 0.19.4"
 end
