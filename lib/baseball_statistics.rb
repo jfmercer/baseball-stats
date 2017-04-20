@@ -2,8 +2,8 @@ require "thor"
 require_relative "./process_csv"
 
 class BaseballStatistics < Thor
-  desc "hi NAME", "say hello"
-  def hi(name)
-    test(name)
+  desc "read MASTER BATTING", "read CSV files into memory"
+  def read(master = nil, batting = nil)
+    ProcessCsv.read(master, batting)
   end
 end
